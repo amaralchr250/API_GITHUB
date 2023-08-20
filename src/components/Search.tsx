@@ -23,7 +23,6 @@ const Search = ({loadUser}: SearchProps) => {
     return (
 <div className={classes.search}>
     <h2>Procure por um usuário</h2>
-    <p>Seus best repositórios!</p>
 
 <div className={classes.search_container}>
 
@@ -32,7 +31,6 @@ const Search = ({loadUser}: SearchProps) => {
     onKeyDown={handlekeyDown}
      />
 <button onClick={() => loadUser(username)}>
-
     <BsSearch />
     </button>
 </div>
