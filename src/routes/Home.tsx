@@ -29,7 +29,7 @@ const Home = () => {
     };
 
     return (
-        <div>
+        <div >
         <Search loadUser={(loadUser)} />
         {user && <User {...user} />}
         </div>
